@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ///
 /// Hyperspace by HTML5 UP
 /// html5up.net | @ajlkn
@@ -36,43 +35,4 @@
 				margin: 0 auto;
 			}
 		}
-=======
-///
-/// Hyperspace by HTML5 UP
-/// html5up.net | @ajlkn
-/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-///
-
-/* Footer */
-
-	#footer {
-		#sidebar + #wrapper + & {
-			margin-left: _size(sidebar-width);
-
-			@include breakpoint('<=large') {
-				margin-left: 0;
-			}
-		}
-
-		> .inner {
-			a {
-				border-bottom-color: _palette(border);
-
-				&:hover {
-					border-bottom-color: transparent;
-				}
-			}
-
-			.menu {
-				font-size: 0.8em;
-				color: _palette(border);
-			}
-		}
-
-		#header + #wrapper + & {
-			> .inner {
-				margin: 0 auto;
-			}
-		}
->>>>>>> 237abb6cf4ff59c38ca37c980bbf7785b3d14f18
 	}
